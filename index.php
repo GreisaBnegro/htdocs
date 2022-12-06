@@ -15,6 +15,7 @@
     <form method="GET" action="/">
         <input type="text" name="person" />
         <button>Submit</button>
+        <p>Hi</p>
     </form>
     <?php
 
