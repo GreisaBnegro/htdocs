@@ -14,16 +14,16 @@
 
     <form method="GET" action="/">
         <input type="text" name="person" />
-        <button>SuBmIt</button>
+        <button>Submit</button>
     </form>
     <?php
 
-	$name = "Human";
-	if (isset($_GET['person'])) {
-		$name = $_GET['person'];
-	}
-	echo $name . " is a BeAuTiFuL HOOMAN";
-	?>
+    $name = "Human";
+    if (isset($_GET['person'])) {
+        $name = $_GET['person'];
+    }
+    echo $name . " is a BeAuTiFuL HOOMAN";
+    ?>
 </body>
 
 </html>
