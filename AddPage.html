@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product New</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Fira+Sans:wght@400;500&family=Neonderthaw&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .header {
+        display: flex;
+      }
+
+      .js-cb {
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: left;
+      }
+      .descr {
+        width: 680px;
+        height: 300px;
+      }
+      .size {
+        word-wrap: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-side">
+        <p>Product Add</p>
+      </div>
+      <div class="right-side">
+        <button submit="">Save</button>
+      </div>
+    </div>
+    <label for="fname">SKU</label>
+    <input type="text" placeholder="123" /> <br />
+    <label for="fname">Name</label>
+    <input type="text" /> <br />
+    <label for="fname">Price</label> <input type="text" /> <br />
+    <label for="fname">Type Switcher</label>
+    <select name="type" id="type">
+      <option value="tp">Type Sitcher</option>
+      <option value="size">Size</option>
+      <option value="dimens">Dimensions</option>
+      <option value="weight">Weight</option>
+    </select>
+    <br /><br />
+    <div class="dropdown-types" id="tp"></div>
+    <br /><br />
+    <div class="dropdown-types" id="size" style="display: none">
+      <label for="fname">Size</label> <input type="text" />
+      <p style="width: 15rem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        empor incididunt ut labore et dolore magna aliqua. Sodales ut etiam sit
+        amet nisl purus.
+      </p>
+
+      <br /><br />
+    </div>
+    <div class="dropdown-types" id="dimens0" style="display: none">
+      <label for="fname">Height</label>
+      <input type="text" /> <br /><br />
+      <label for="fname">Width</label>
+      <input type="text" /> <br /><br />
+      <label for="fname">Lenght</label>
+      <input type="text" />
+      <p style="width: 15rem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        empor incididunt ut labore et dolore magna aliqua. Sodales ut etiam sit
+        amet nisl purus.
+      </p>
+    </div>
+    <div class="dropdown-types" id="weight" style="display: none">
+      <label for="fname">Weight</label>
+      <input type="text" />
+      <p style="width: 15rem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        empor incididunt ut labore et dolore magna aliqua. Sodales ut etiam sit
+        amet nisl purus.
+      </p>
+    </div>
+    <script src="AddPage.js"></script>
+  </body>
+</html>
