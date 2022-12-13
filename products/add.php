@@ -12,7 +12,7 @@
 </head>
 
 <body>
-
+    <h1>Add Product</h1>
 
 </body>
 
