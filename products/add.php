@@ -13,6 +13,7 @@
 
 <body>
     <h1>Add Product</h1>
+    <p>Here is my product selection for you</p>
 
 </body>
 
