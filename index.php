@@ -7,6 +7,12 @@
 </head>
 
 <body>
+    <ul>
+        <li>
+            <a href="/products/list.php">All products</a>
+        </li>
+    </ul>
+
     <form action="/products/list.php">
         <input type="text" name="sku">
         <button type="submit">Nosūtīt</button>

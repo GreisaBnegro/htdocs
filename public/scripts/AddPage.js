@@ -2,11 +2,7 @@ let dropdown = document.getElementById("type");
 
 dropdown.addEventListener("change", function (e) {
     let ddValue = e.target.value;
-    if (ddValue == "dimens"){
-        changeItemTypes("dimens0");
-    } else {
-        changeItemTypes(ddValue);
-    }
+    changeItemTypes(ddValue);
   });
 
 
